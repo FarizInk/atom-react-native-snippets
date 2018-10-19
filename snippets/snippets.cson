@@ -14,7 +14,7 @@
         render() {
           return (
             ${2:<View style={styles.container\\}>
-              ${3:<Text>${4:I'm the ${1:MyComponent} component}</Text>}
+              ${3:<Text>${4:I&#39;m the ${1:MyComponent} component}</Text>}
             </View>}
           );$5
         }
@@ -39,7 +39,7 @@
 
       const ${1:MyComponent} = ({$2}) => (
         ${3:<View style={styles.container\\}>
-          ${4:<Text>${5:I'm ${1:MyComponent}}</Text>}
+          ${4:<Text>${5:I&#39;m ${1:MyComponent}}</Text>}
         </View>}
       );$6
 
